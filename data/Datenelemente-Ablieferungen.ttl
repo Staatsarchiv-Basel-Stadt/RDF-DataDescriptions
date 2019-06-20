@@ -1,0 +1,43 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/67d3a567> skos:prefLabel "ID-Nr" ;
+	skos:altLabel "ID_NR" ;
+	skos:definition "ID-Nummer des Geschäftsobjekts" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/3e32423f> skos:prefLabel "ID-Name" ;
+	skos:altLabel "ID_NAME" ;
+	skos:definition "Anzeigename aus den Grunddaten" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/3a0cecfd> skos:prefLabel "Typ" ;
+	skos:altLabel "TYP" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/66c5f8c2> skos:prefLabel "Subtyp" ;
+	skos:altLabel "SUBTYP" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/291f1d5c> skos:prefLabel "Abliefernde Stelle" ;
+	skos:altLabel "ABLIEFERNDE_STELLE" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/322ec3e9> skos:prefLabel "Aktenbildende Stelle" ;
+	skos:altLabel "AKTENBILDENDE_STELLE" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/61f4e521> skos:prefLabel "Betreff / Titel" ;
+	skos:altLabel "BETREFF_TITEL" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/24a2e05d> skos:prefLabel "Zeitraum / Periode" ;
+	skos:altLabel "ZEITRAUM_PERIODE" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/5e3e7f48> skos:prefLabel "Beschreibung" ;
+	skos:altLabel "BESCHREIBUNG" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/455d98a4> skos:prefLabel "Jahr / Lauf-Nr." ;
+	skos:altLabel "JAHR_LAUF_NR" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/229a3ae4> skos:prefLabel "ID-Nr." ;
+	skos:altLabel "VE_ID_NR" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/52e90fdb> skos:prefLabel "Rolle" ;
+	skos:altLabel "VRW_ROLLE" .
+
+<http://data.staatsarchiv-bs.ch/Ablieferung/229a3ae4> skos:prefLabel "ID-Nr." ;
+	skos:altLabel "VRW_ID_NR" .
