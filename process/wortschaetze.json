@@ -221,7 +221,7 @@
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://data.staatsarchiv-bs.ch/",
+      "baseUri": "http://data.staatsarchiv-bs.ch/wortschaetze/",
       "prefixes": [
         {
           "name": "skos",
@@ -236,8 +236,8 @@
           "columnName": "Wortschatz_hashed",
           "rdfTypes": [
             {
-              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "curie": "skos:Concept"
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
             }
           ],
           "links": [
@@ -260,18 +260,6 @@
                 "isRowNumberCell": false,
                 "valueType": "http://www.w3.org/2001/XMLSchema#int",
                 "columnName": "Codegruppen-ID"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2004/02/skos/core#related",
-              "curie": "skos:related",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Wort",
-                "rdfTypes": [],
-                "links": []
               }
             }
           ]
@@ -301,6 +289,114 @@
             {
               "uri": "http://www.w3.org/2004/02/skos/core#definition",
               "curie": "skos:definition",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Beschreibung"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Wortschatz_hashed",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://data.staatsarchiv-bs.ch/wortschaetze/",
+      "prefixes": [
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Wortschatz_hashed",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Wortschatz"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#notation",
+              "curie": "skos:notation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Codegruppen-ID"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Wort_hashed",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Wort"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Wortschatz_hashed",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#scopeNote",
+              "curie": "skos:scopeNote",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
