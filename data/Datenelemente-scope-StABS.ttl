@@ -1,0 +1,1631 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen> a skos:conceptScheme;
+  skos:prefLabel "Ablieferungen"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/67d3a567> a skos:Concept;
+  skos:definition "ID-Nummer des Geschäftsobjekts"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>, <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "ID_NR";
+  skos:prefLabel "ID-Nr"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3e32423f> a skos:Concept;
+  skos:definition "Anzeigename aus den Grunddaten"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>, <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "ID_NAME";
+  skos:prefLabel "ID-Name"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3a0cecfd> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>;
+  skos:notation "TYP";
+  skos:prefLabel "Typ"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/66c5f8c2> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>;
+  skos:notation "SUBTYP";
+  skos:prefLabel "Subtyp"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/291f1d5c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>;
+  skos:notation "ABLIEFERNDE_STELLE";
+  skos:prefLabel "Abliefernde Stelle"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/322ec3e9> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>;
+  skos:notation "AKTENBILDENDE_STELLE";
+  skos:prefLabel "Aktenbildende Stelle"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/61f4e521> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>;
+  skos:notation "BETREFF_TITEL";
+  skos:prefLabel "Betreff / Titel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/24a2e05d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>;
+  skos:notation "ZEITRAUM_PERIODE";
+  skos:prefLabel "Zeitraum / Periode"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5e3e7f48> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>, <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "BESCHREIBUNG";
+  skos:prefLabel "Beschreibung"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/455d98a4> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>;
+  skos:notation "JAHR_LAUF_NR";
+  skos:prefLabel "Jahr / Lauf-Nr."@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/229a3ae4> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>, <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "VE_ID_NR", "VRW_ID_NR";
+  skos:prefLabel "ID-Nr."@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/52e90fdb> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/ablieferungen>, <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "ROLLE", "VRW_ROLLE";
+  skos:prefLabel "Rolle"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren> a skos:conceptScheme;
+  skos:prefLabel "Deskriptoren"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/55fc4351> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "THESAURUS";
+  skos:prefLabel "Thesaurus"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4873168b> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "BEZEICHNUNG";
+  skos:prefLabel "Bezeichnung"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/310e6a7> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "FREMDSPRACHIGE_BEZEICHNUNGEN";
+  skos:prefLabel "Fremdsprachige Bezeichnungen"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1786eb9> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "QUELLE";
+  skos:prefLabel "Quelle"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/280b03ca> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "GEBURTSDATUM";
+  skos:prefLabel "Geburtsdatum"@de;
+  skos:scopeNote "Einzeldatum"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/dada36c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "TODESDATUM";
+  skos:prefLabel "Todesdatum"@de;
+  skos:scopeNote "Einzeldatum"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/6a205aab> a skos:Concept;
+  skos:definition "Gemeinsame Normdatei"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "GND";
+  skos:prefLabel "GND"@de;
+  skos:scopeNote "Web-Hyperlink"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/394b5c34> a skos:Concept;
+  skos:definition "Virtual International Authority File"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/deskriptoren>;
+  skos:notation "VIAF";
+  skos:prefLabel "VIAF"@de;
+  skos:scopeNote "Web-Hyperlink"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/partner> a skos:conceptScheme;
+  skos:prefLabel "Partner"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/67d3a567> a skos:Concept;
+  skos:definition "ID-Nummer des Geschäftsobjekts"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/partner>;
+  skos:notation "ID_NR";
+  skos:prefLabel "ID-Nr"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3e32423f> a skos:Concept;
+  skos:definition "Anzeigename aus den Grunddaten"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/partner>;
+  skos:notation "ID_NAME";
+  skos:prefLabel "ID-Name"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/76c64b38> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10046";
+  skos:definition "Zweck: Angabe, ob es sich bei der verzeichneten Einheit um eine Körperschaft, eine Person oder eine Familie handelt."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/partner>;
+  skos:notation "TYP_DER_EINHEIT";
+  skos:prefLabel "Typ der Einheit"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4654c84a> a skos:Concept;
+  skos:definition "Schaffung eines autorisierten Zugangspunkts, der die Körperschaft, Person oder Familie eindeutig identifiziert."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/partner>;
+  skos:notation "AUTORISIERTE_NAMENSFORM(EN)";
+  skos:prefLabel "Autorisierte Namensform(en)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/10943150> a skos:Concept;
+  skos:definition "Angabe der verschiedenen Formen, in welcher die autorisierte Namensform in anderen Sprachen oder schriftlichen Formen vorkommt."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/partner>;
+  skos:notation "PARALLELE_NAMENSFORM(EN)";
+  skos:prefLabel "Parallele Namensform(en)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/partner> a skos:conceptScheme;
+  skos:prefLabel "Partner"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/29b0bbe7> a skos:Concept;
+  skos:definition "Existenzzeitraum eines Partners, d.h. Geburts- und Sterbedatum einer Person oder Gründungs- respektive Auflösungsdatum einer Organisation. Dieses Datenelement wird für die Partnerbeschreibung nach ISAAR(CPF) verwendet."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/partner>;
+  skos:notation "EXISTENZ_ZEITRAUM";
+  skos:prefLabel "Existenzzeitraum"@de;
+  skos:scopeNote "Datumsbereich (von/bis)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/c505757> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10045";
+  skos:definition "Angabe des rechtlichen Status einer Körperschaft."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/partner>;
+  skos:notation "RECHTSFORM";
+  skos:prefLabel "Rechtsform"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/73d4a674> a skos:Concept;
+  skos:definition "Angabe der Grundlagen der Befugnisse der Körperschaften, Personen oder Familien hinsichtlich ihrer Kompetenzen, Funktionen, Verantwortlichkeiten oder Aktivitätsbereiche, einschliesslich des territorialen Zuständigkeitsbereichs."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/partner>;
+  skos:notation "RECHTLICHE_GRUNDLAGE";
+  skos:prefLabel "Rechtliche Grundlage(n)"@de;
+  skos:scopeNote "Web-Hyperlink"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7ce3e31c> a skos:Concept;
+  skos:definition "Angabe, wann die Normdatei erstellt, überarbeitet oder gelöscht wurde."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/partner>;
+  skos:notation "AUFNAHMEDATUM";
+  skos:prefLabel "Aufnahmedatum"@de;
+  skos:scopeNote "Einzeldatum (präzise)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/42e95482> a skos:Concept;
+  skos:definition "Benennung einer Verzeichnungseinheit"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "TITEL";
+  skos:prefLabel "Titel"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5088e603> a skos:Concept;
+  skos:definition "Feld für konkatenierbares Signatur-Element zur Identifizierung und Anzeige von Verzeichnungseinheiten"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "SIGNATUR";
+  skos:prefLabel "Signatur"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/280b03ca> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "GEBURTSDATUM";
+  skos:prefLabel "Geburtsdatum"@de;
+  skos:scopeNote "Einzeldatum"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/dada36c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "TODESDATUM";
+  skos:prefLabel "Todesdatum"@de;
+  skos:scopeNote "Einzeldatum"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2e27ec8> a skos:Concept;
+  skos:definition "Zuordnung einer VE zu einer Verzeichnungsstufe"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "STUFE";
+  skos:prefLabel "Verzeichnungsstufe"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/c51cfd9> a skos:Concept;
+  skos:definition "Identifizierung der  Laufzeit bzw. des Entstehungsdatums  oder -zeitraums der in  einer Verzeichnungseinheit enthaltenen Unterlagen"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ENTSTEHUNGSZEITRAUM";
+  skos:prefLabel "Entstehungszeitraum"@de;
+  skos:scopeNote "Datumsbereich (von/bis)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5e744683> a skos:Concept;
+  skos:definition "kann verwendet werden für die Eingabe von Detail-Informationen, welche (innerhalb der erfassten VE) vor anderen hervorgehoben zu werden verdienen resp. aufgrund des Titels nicht in dieser VE vermutet werden."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "DARIN";
+  skos:prefLabel "Darin"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2735023f> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BILD_ANSICHT";
+  skos:prefLabel "Bild Ansicht"@de;
+  skos:scopeNote "Bild"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4032a7f5> a skos:Concept;
+  skos:definition "Identifizierung aller für die Verzeichnungseinheit vorhandenen Findmittel"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FINDHILFSMITTEL";
+  skos:prefLabel "Findhilfsmittel"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/6604065a> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "-";
+  skos:definition "Zugang zu einem Bestand respektive Verzeichnungseinheit. Hier kann eine Zugangsnummer eingegeben sowie eine Ablieferung ausgewählt werden. Es handelt sich um eine Verknüpfung auf das Ablieferungsmodul. Im Ablieferungsmodul ist der Zugang im Register \"Verzeichnungseinheiten\" sichtbar. Intern heisst der Verknüpfungstyp \"Zugang\""@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VE_ZUGANG_LINK";
+  skos:prefLabel "Zugänge"@de;
+  skos:scopeNote "Zugänge"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/14eb764f> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "1";
+  skos:definition "Der Erschliessungsgrad einer Verzeichnungseinheit. Dieser Wert ist auch in der Listensicht des Modulsverzeichnungseinheiten sichtbar."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ERSCHLIESSUNGSGRAD";
+  skos:prefLabel "Erschliessungsgrad"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3ac65582> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "2";
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ARCHIVALIENART";
+  skos:prefLabel "Archivalienart"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5edeb69b> a skos:Concept;
+  skos:definition "Signaturen, die früher in Gebrauch waren. Signaturen können bei einer Mutation automatisch in dieses Feld übertragen werden, sofern die entsprechende Systemoption aktiviert wurde."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FRÜHERE_STABS_SIGNATUR";
+  skos:prefLabel "Frühere StABS-Signatur"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/47f99c16> a skos:Concept;
+  skos:definition "Spieldauer eine Audioaufzeichnung. Dieser Wert kann im Modul Verzeichnungseinheiten auf einer übergeordneten Stufe kumuliert werden."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ABSPIELDAUER";
+  skos:prefLabel "Abspieldauer"@de;
+  skos:scopeNote "Zeitdauer"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme,
+    skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/88c638b> a skos:Concept;
+  skos:definition "Die Anzahl Einheiten oder Behältnisse einer Verzeichnungseinheit (gehört zur Umfangangabe). Dieser Wert kann im Modul Verzeichnungseinheiten auf einer übergeordneten Stufe kumuliert werden."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ANZAHL";
+  skos:prefLabel "Anzahl"@de;
+  skos:scopeNote "Ganze Zahl"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3a30ace0> a skos:Concept;
+  skos:definition "Die Laufmeter einer Verzeichnungseinheit. Dieser Wert kann im Modul Verzeichnungseinheiten auf einer übergeordneten Stufe kumuliert werden."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "LAUFMETER";
+  skos:prefLabel "Laufmeter"@de;
+  skos:scopeNote "Festkomma-Zahl"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7baa9b9b> a skos:Concept;
+  skos:definition "kann verwendet werden für die Beschreibung des Inhalts einer VE."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ENTHAELT";
+  skos:prefLabel "Enthält"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/14b0bae5> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "-";
+  skos:definition "Die aktenbildenden Organisation respektive Person, welche die Verzeichnungseinheit ursprünglich produziert hat.  Hier handelt es sich um eine Verknüpfung auf einen Partner, die im Formular einer Verzeichnungseinheit erfasst wird. Im Partnermodul ist die Verbindung im Verknüpfungsregister sichtbar (Verknüpfungstyp \"Aktenbildner der Verz.-Einheit\"). Andersprachige Bezeichnungen: Creator (E); Producteur (F);  Soggetto produttore (I)."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VE_AKTENBILDNER_LINK";
+  skos:prefLabel "Aktenbildner/Provenienz (Link)"@de;
+  skos:scopeNote "Verknüpfung"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5768ebb1> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "-";
+  skos:definition "Die Ablieferung, aus der eine Verzeichnungseinheit ursprünglich stammt. Dieses Datenelement wird im Formular einer Verzeichnungseinheit erfasst und ist ein Link auf eine Ablieferung. Im Modul Ablieferungen ist die Verknüpfung im Register \"Verz.-Einheiten\" sichtbar. Der interne Verknüpfungstyp heisst \"Ablieferung der Verz.-Einheit\"."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VE_ABLIEFERUNG_LINK";
+  skos:prefLabel "Ablieferung (Link)"@de;
+  skos:scopeNote "Verknüpfung"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/24f8f7bc> a skos:Concept;
+  skos:definition "Migriert von scopeArchiv 2.3"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AKTENBILDNER_PROVENIENZ_TEXT";
+  skos:prefLabel "Aktenbildner/Provenienz (Text)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2e2322f7> a skos:Concept;
+  skos:definition "Identifikationsbereich"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "IDENTIFIKATION::";
+  skos:prefLabel "Identifikation:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme,
+    skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/50c99e03> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERWEISE";
+  skos:prefLabel "Verweise"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/69cf23a2> a skos:Concept;
+  skos:definition "kurze  Zusammenfassung des wesentlichen Inhalts (einschliersslich Zeitraum) der beschriebenen Verzeichnungseinheit"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "INHALT";
+  skos:prefLabel "Inhalt"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/763db19e> a skos:Concept;
+  skos:definition "Bereich für die Beschreibung des Entstehungskontextes von Verzeichnungseinheiten"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "KONTEXT::";
+  skos:prefLabel "Kontext:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/31194242> a skos:Concept;
+  skos:definition "entspricht MAD II 22.4C1: \"Site or place\""@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ORT";
+  skos:prefLabel "Ort"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/c2ccfff> a skos:Concept;
+  skos:definition "quantitative Angabe zu einer  Verzeichnungseinheit"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "UMFANG";
+  skos:prefLabel "Umfang"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1e475827> a skos:Concept;
+  skos:definition "Anzahl von Behältnissen einer Verzeichnungseinheit"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BEHÄLTNISSE";
+  skos:prefLabel "Behältnisse"@de;
+  skos:scopeNote "Ganze Zahl"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2a98ce67> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10017";
+  skos:definition "Zuordnung eines gezählten Behältnisses zu einem Behältnis-Typ"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BEHÄLTNISTYP_(HÖFLINGER)";
+  skos:prefLabel "Behältnistyp (Höflinger)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/341febf6> a skos:Concept;
+  skos:definition "Referenz auf Bibliotheks-Signatur einer Veröffentlichung in der Bibliothek des StABS oder (evt.) einer anderen über das gleiche System zugänglichen Fachbibliothek (UBB usw.)."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BIBLIOTHEKSKATALOG";
+  skos:prefLabel "Bibliothekskatalog"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/52057a74> a skos:Concept;
+  skos:definition "Geschichte einer Provenienzstelle von Verzeichnungseinheiten"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERWALTUNGSGESCHICHTE_BIOGRAFISCHE_ANGABEN";
+  skos:prefLabel "Verwaltungsgeschichte/Biografische Angaben"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/55ddac36> a skos:Concept;
+  skos:definition "Datierung der durchz die Provenienzstelle erfolgten Materialzusammenstelloung"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ZEITRAUM_DER_MATERIALZUSAMMENSTELLUNG";
+  skos:prefLabel "Zeitraum der Materialzusammenstellung"@de;
+  skos:scopeNote "Datumsbereich (von/bis)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/58c3648e> a skos:Concept;
+  skos:definition "Information über Wechsel der Eigentums- und Besitzverhältnisse von Verzeichnungseinheiten vor deren Übergang an die für verzeichnete (letzte) Provenienzstelle sowie weitere Angaben über die Geschichte dieser Verzeichnugnseinheiten, welche fürRückschlüsse auf Authentizität, Vollständigkeit und Interpretation derselben wesentlich sind."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BESTANDSGESCHICHTE";
+  skos:prefLabel "Bestandsgeschichte"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3c547368> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "INHALT_UND_INNERE_ORDNUNG:";
+  skos:prefLabel "Inhalt und innere Ordnung:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5a971b3e> a skos:Concept;
+  skos:definition "Angaben für die/den BenützerIn über mögliche Veränderungen im Umfang der  Verzeichnungseinheit "@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "NEUZUGÄNGE";
+  skos:prefLabel "Neuzugänge"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3bb50e24> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ZUGANGS__UND_BENUTZUNGSBEDINGUNGEN:";
+  skos:prefLabel "Zugangs- und Benutzungsbedingungen:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/6825352a> a skos:Concept;
+  skos:definition "Information über den Rechtsstatus  der Verzeichnungseinheit"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "RECHTSSTATUS";
+  skos:prefLabel "Rechtsstatus"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7fa05f07> a skos:Concept;
+  skos:definition "Angabe derjenigen Bestimmungen, die den Zugang zur  Verzeichnungseinheit einschränken oder beeinflussen"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ZUGANGSBESTIMMUNGEN";
+  skos:prefLabel "Zugangsbestimmungen"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5c475b62> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "COPYRIGHT_REPORDUKTIONSBESTIMMUNGEN";
+  skos:prefLabel "Copyright/Reproduktionsbestimmungen"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5e96035d> a skos:Concept;
+  skos:definition "Identifizierung der in der Verzeichnungseinheit enthaltenen Sprache(n), Schriftarten und Zeichensysteme"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "SPRACHE";
+  skos:prefLabel "Sprache"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/494e8145> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "SACHVERWANDTE_UNTERLAGEN";
+  skos:prefLabel "Sachverwandte Unterlagen:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/68558ca5> a skos:Concept;
+  skos:definition "Ermittlung des Archivs, der Körperschaft oder der Person, in deren Besitz die Vorlage ist, dalls es sich  bei  der beschriebenen Verzeichnungseinheit um eine Reproduktion handelt."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AUFBEWAHRUNGSORT_DER_ORIGINALE";
+  skos:prefLabel "Aufbewahrungsort der Originale"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/119343d9> a skos:Concept;
+  skos:definition "Verweis  auf Kopien bzw. reproduktionen  der Verzeichnungseinheit und ihre Verfügbarkeit"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "KOPIEN_BZW._REPRODUKTIONEN";
+  skos:prefLabel "Kopien/Reproduktionen"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/64404d18> a skos:Concept;
+  skos:definition "Ermittlung verwandter Verzeichnungseinheiten im StABS, die nicht in socpeArchiv erfasst sind."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERWANDTE_VE_NICHT_IN_SCOPEARCHIV";
+  skos:prefLabel "Verwandte VE nicht in scopeArchiv"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7c2456c8> a skos:Concept;
+  skos:definition "Verweis auf Unterlagen  in anderen Archiven, die durch ihre Provenienz in verbindung zur Verzeichnungseinheit stehen"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERWANDTES_MATERIAL";
+  skos:prefLabel "Verwandtes Material"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/75a0abe0> a skos:Concept;
+  skos:definition "Spezialinformationen und  Angaben zu einer Verzeichnungseinheit, welche in keinen anderen der definierten ISAD(G)-Beschreibungselemente angebracht werden können."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ANMERKUNGEN";
+  skos:prefLabel "Anmerkungen"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3c973f18> a skos:Concept;
+  skos:definition "Angabe der massstäblichen Vergrösserung oder Verkleinerung. "@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "MASSSTAB";
+  skos:prefLabel "Massstab"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/582e7ade> a skos:Concept;
+  skos:definition "entspricht Rubrik im Eingangsbuch Planarchiv"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERFERTIGERIN";
+  skos:prefLabel "VerfertigerIn"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/ddfd263> a skos:Concept;
+  skos:definition "Tag, an welchem eine Handlung (Vertrag  usw.) urkundlich beglaubigt wurde "@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AUSSTELLUNGSDATUM";
+  skos:prefLabel "Ausstellungsdatum"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2e7ae166> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "UNTERZEICHNERIN";
+  skos:prefLabel "UnterzeichnerIn"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1ed9d056> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10007";
+  skos:definition "zur Beschreibung von Fotonegativen, Bildern oder Plänen"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "TECHNIK";
+  skos:prefLabel "Technik"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2d230a66> a skos:Concept;
+  skos:definition "(wird verwendet zur Beschreibung von Fotonegativen des Fotoarchivs Höflinger)"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ORIGINALTITEL_AUF_HÜLLE";
+  skos:prefLabel "Originaltitel auf Hülle"@de;
+  skos:scopeNote "Ja/Nein-Feld"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1b4aabd4> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10020";
+  skos:definition "Vorhandenes Positiv zum erfassten Negativ"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "POSITIV_IN_SCHACHTEL";
+  skos:prefLabel "Positiv in Schachtel"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/c5e50e7> a skos:Concept;
+  skos:definition "Verweis auf vorhandene Akten"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AKTEN_ZUM_AUFTRAG";
+  skos:prefLabel "Akten zum Auftrag"@de;
+  skos:scopeNote "Ja/Nein-Feld"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/75fe552f> a skos:Concept;
+  skos:definition "Angabe, ob die erfasste Verzeichnungseinheit eine Reproduktion ist"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "REPRODUKTION";
+  skos:prefLabel "Reproduktion"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/648ef128> a skos:Concept;
+  skos:definition "wird verwendet zur Angabe allfällig vorhandener alter Signaturen."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ALTE_SIGNATUREN";
+  skos:prefLabel "Alte Signaturen"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/6b16d78d> a skos:Concept;
+  skos:definition "wird benötigt, wo ein Bild nicht den gesamten Aufzeichnungsträger ausfüllt."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORMAT_DER_UNTERLAGE";
+  skos:prefLabel "Format der Unterlage"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/767a4d46> a skos:Concept;
+  skos:definition "Das B-Element wird benötigt zur Unterscheidung von Autorschafts-Angaben, welche dem Material direkt entnoimmen werden können, und solchen, die indirekt erschlossen werden müssen."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERFERTIGER_ERSCHLOSSEN";
+  skos:prefLabel "Verfertiger erschlossen"@de;
+  skos:scopeNote "Ja/Nein-Feld"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1968975a> a skos:Concept;
+  skos:definition "Auf der Verzeichnungseinheit enthaltene Bezeichnung oder Titelgebung, welche nicht mit dem erfassten Titel übereinstimmt"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ORIGINALBEZEICHNUNG";
+  skos:prefLabel "Originalbezeichnung"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/779c0a83> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10008";
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORMAT_BILD_PLAN";
+  skos:prefLabel "Format Bild/Plan"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2fea49a3> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ANMERKUNGEN:";
+  skos:prefLabel "Anmerkungen:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/53ecb772> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERTRAGSPARTNER";
+  skos:prefLabel "Vertragspartner "@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/47f67be> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERTRAGSGEGENSTAND";
+  skos:prefLabel "Vertragsgegenstand"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3dfd71bf> a skos:Concept;
+  skos:definition "Akronym der  Archiv-Organisation "@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ARCHIVSIGEL";
+  skos:prefLabel "Archivsigel"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5d6eb0bd> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "WIRKUNGSFELD";
+  skos:prefLabel "Tätigkeiten, öffentliche Rolle"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3894d2b1> a skos:Concept;
+  skos:definition "Feld zur fakultativen Eingabe eines Wertes für den Umfang, wenn keine präzisen Zahlen verfügbar sind"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "UMFANG_GESCHÄTZT";
+  skos:prefLabel "Umfang approximativ"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/358d532e> a skos:Concept;
+  skos:definition "Eckdaten der meisten in einer Verzeichnungseinheit enthaltenen   Unterlagen"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ENTSTEHUNGSZEIT_SCHWERGEWICHT_";
+  skos:prefLabel "Entstehungszeitraum Schwergewicht "@de;
+  skos:scopeNote "Datumsbereich (von/bis)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/130647de> a skos:Concept;
+  skos:definition "Bereitstellung von Informationen über jede an der Verzeichnungseinheit vorgenommemnen Bewertung und Kassation"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BEWERTUNG_UND_KASSATION";
+  skos:prefLabel "Bewertung und Kassation"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1e3bc273> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERÖFFENTLICHUNGEN";
+  skos:prefLabel "Veröffentlichungen"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/22d3e3a7> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "PRIORITÄTSKLASSE";
+  skos:prefLabel "Prioritätsklasse"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3a0e0971> a skos:Concept;
+  skos:definition "Darstellung der Umstände, die mit der direkten Übernahme der Verzeichnungseinheit von der Provenienzstelle verbunden sind."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "DIREKTÜBERNAHME_VON_PROVENIENZSTELLE";
+  skos:prefLabel "Direktübernahme von Provenienzstelle"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/377d4283> a skos:Concept;
+  skos:definition "Festellung von Hauptgegenstand und Form der Verzeichnungseinheit, um BenützerInnen eine Beurteilung ihrer Relevanz zu ermöglichen."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORM_UND_INHALT";
+  skos:prefLabel "Form und Inhalt"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7a2b47a3> a skos:Concept;
+  skos:definition "Information über die Ordnung und Klassifikation der Verzeichnungseinheit"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ORDNUNG_UND_KLASSIFIKATION";
+  skos:prefLabel "Ordnung und Klassifikation"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3efc82fd> a skos:Concept;
+  skos:definition "Wird verwendet für die Zeitangabe einzelner isolierter Teile innerhalb einer Verzeichnungseinheit"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ENTSTEHUNGSZEITRAUM__STREUDATEN";
+  skos:prefLabel "Entstehungszeitraum, Streudaten"@de;
+  skos:scopeNote "Datumsbereich (von/bis)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/414200e6> a skos:Concept;
+  skos:definition "Angabe der von der Provenienzstelle verwendeten Signatur oder identifizierenden Bezeichnung"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FRUEHERE_SIGNATUR";
+  skos:prefLabel "Frühere Signatur"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/11404259> a skos:Concept;
+  skos:definition "Dient als Feld zur Präsentation der wichtigsten Informationen über die Geschichte des betreffenden Archivs"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ARCHIVGESCHICHTE";
+  skos:prefLabel "Archivgeschichte"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2d0826e0> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "LITERATUR_BEST_INSG";
+  skos:prefLabel "Literatur zum Bestand  insgesamt"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4336abff> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10018";
+  skos:definition "wird verwendet zur Signaturenbildung im Fotoarchiv Höflinger (Werte: \"A\", \"H\", \"P\")"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORMAT_(NEGATIV_HÖFLINGER)";
+  skos:prefLabel "Format (Höflinger)"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2f045a38> a skos:Concept;
+  skos:definition "für Verzeichnugnsdeinheiten, deren Inhalt  nicht identifiziert werden konnte"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "NICHT_IDENTIFIZIERT";
+  skos:prefLabel "Nicht identifiziert"@de;
+  skos:scopeNote "Ja/Nein-Feld"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/689a78b6> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "REPRO_HÖFLINGER";
+  skos:prefLabel "Repro Höflinger"@de;
+  skos:scopeNote "Ja/Nein-Feld"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7ce3e31c> a skos:Concept;
+  skos:definition "ISAD(G): ISAAR(CPF)2004: Angabe, wann die Normdatei erstellt, überarbeitet oder gelöscht wurde."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AUFNAHMEDATUM";
+  skos:prefLabel "Aufnahmedatum"@de;
+  skos:scopeNote "Einzeldatum präzis"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/74c28e7a> a skos:Concept;
+  skos:definition "ISAD(G):  ISAAR(CPF)2004: Angabe, wann die Normdatei erstellt, überarbeitet oder gelöscht wurde."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "REVISIONSDATUM";
+  skos:prefLabel "Revisionsdatum"@de;
+  skos:scopeNote "Einzeldatum präzis"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4f701b1> a skos:Concept;
+  skos:definition "wird verwendet im Bestand Höflinger"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "POSITIV_IN_ZEIGBUCH_NR.";
+  skos:prefLabel "Positiv in Zeigbuch Nr."@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2e24e482> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "REPRO_NR._HÖFLINGER_";
+  skos:prefLabel "Repro Nr. Höflinger "@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7c223c49> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "REPRO_NR._ANDERE";
+  skos:prefLabel "Repro Nr. andere"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2a378c2a> a skos:Concept;
+  skos:definition "für Ergänzungen, die in den B-Elementen \"Anzahl Einheiten\" oder \"Materialtyp\" nicht möglich sind "@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "KOMMENTAR__ZUM_UMFANG";
+  skos:prefLabel "Kommentar  zum Umfang"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3805e225> a skos:Concept;
+  skos:definition "Informationen über wichtige physische Besonderheiten, die die Benutzung der Verzeichnungseinheit beeinflussen."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "PHYSISCHE_BESCHAFFENHEIT";
+  skos:prefLabel "Physische Beschaffenheit"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/652eea1d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AUFTRAGGEBERIN";
+  skos:prefLabel "AuftraggeberIn"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3cd99fcd> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10008";
+  skos:definition "äusseres Format in mm; bei Verwendung von Codes werden dieselben aufgelöst"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORMAT_FOTONEGATIV";
+  skos:prefLabel "Format Fotonegativ"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/65c8c327> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "-";
+  skos:definition "Angabe in Himmelsrichtungen (N, NE, E...) "@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AUFNAHMERICHTUNG";
+  skos:prefLabel "Himmelsrichtung"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7646f058> a skos:Concept;
+  skos:definition "bei Luftaufnahmen: in Metern"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AUFNAHMEHÖHE";
+  skos:prefLabel "Aufnahmehöhe"@de;
+  skos:scopeNote "Ganze Zahl"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/214f06e2> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VE_BEI_PROVENIENZSTELLE__VORHANDEN";
+  skos:prefLabel "VE bei Provenienzstelle  vorhanden"@de;
+  skos:scopeNote "Ja/Nein-Feld"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5bca9dfa> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VE_IM_ARCHIV_VORHANDEN";
+  skos:prefLabel "VE im Archiv vorhanden"@de;
+  skos:scopeNote "Ja/Nein-Feld"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/3a4637a0> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "-";
+  skos:definition "wird verwendet im Fotobestand BALAIR"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "IMMATRIKULATIONSNUMMER_(FLUGZEUG)";
+  skos:prefLabel "Immatrikulationsnummer (Flugzeug)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2f2f7dad> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "-";
+  skos:definition "wird verwendet in Fotobestand BALAIR"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "TYPENBEZEICHNUNG_(FLUGZEUG)";
+  skos:prefLabel "Typenbezeichnung (Flugzeug)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2b168ba9> a skos:Concept;
+  skos:definition "gemäss Eingangsbuch Planarchiv"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "EINGANGSNUMMER_PLANARCHIV";
+  skos:prefLabel "Eingangsnummer Planarchiv"@de;
+  skos:scopeNote "Ganze Zahl"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4460f7ba> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "EINGANGSNUMMER_PLANARCHIV_(ZUSATZ)";
+  skos:prefLabel "Eingangsnummer Planarchiv (Zusatz)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/67b485f0> a skos:Concept;
+  skos:definition "gemäss MAD II 22.4C1"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "INHALT:";
+  skos:prefLabel "Inhalt:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1e4b6ca7> a skos:Concept;
+  skos:definition "entspricht MAD II 22.4C2"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "PHYSISCHE_BESCHREIBUNG:";
+  skos:prefLabel "Physische Beschreibung:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5603f0ff> a skos:Concept;
+  skos:definition "entspricht MAD II 22.4C2: \"Medium\""@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BESCHREIBSTOFF";
+  skos:prefLabel "Beschreibstoff"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2db28ee3> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10006";
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FARBE_BILDBEARBEITUNG";
+  skos:prefLabel "Farbe/Bildbearbeitung"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/2326fdbe> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10011";
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "HAUSNAME";
+  skos:prefLabel "Hausname BS"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/37f6e180> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10012";
+  skos:definition "laut Adressbuch 1862"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "EIGENTÜMER_1862";
+  skos:prefLabel "Eigentümer 1862             "@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/626fbe70> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ALTE_HAUSNUMMER";
+  skos:prefLabel "Alte Hausnummer"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/62b44d40> a skos:Concept;
+  skos:definition "bezeichnet Stadium im Erstellungsprozess von Verzeichnungseinheiten"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ENTSTEHUNGSSTUFE";
+  skos:prefLabel "Entstehungsstufe"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/789547e0> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10019";
+  skos:definition "Formalbegriff aus der Höflinger Access Anwendung"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORMALBEGRIFF_(HÖFLINGER)";
+  skos:prefLabel "Formalbegriff"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1cfc636a> a skos:Concept;
+  skos:definition "wird bei Erschliessung Höflinger verwendet zur Angabe, ob VE Repro ist."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "REPRO";
+  skos:prefLabel "Repro"@de;
+  skos:scopeNote "Ja/Nein-Feld"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7b49bad0> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10008";
+  skos:definition "wird verwendet zur Angabe des Formats von Fotos"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORMAT_FOTO_BILD";
+  skos:prefLabel "Format Foto/Bild"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/10778bb9> a skos:Concept;
+  skos:definition "Zur Erfassung der Technik von Plänen im Planarchiv"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "TECHNIK_(PLANARCHIV)";
+  skos:prefLabel "Technik (Planarchiv)"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/74511c9c> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10015";
+  skos:definition "bezeichnet Stadium im Erstellungsprozess von Verzeichnugnseinheiten; wird primär im Planarchiv verwendet"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ENTSTEHUNGSSTUFE_(AUSWAHLLISTE)";
+  skos:prefLabel "Entstehungsstufe (Auswahlliste)"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/447c35a3> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10016";
+  skos:definition "wird für Plandokumente oder evt. für Plandossiers verwendet."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORM_DER_DARSTELLUNG_(AUSWAHLLISTE)";
+  skos:prefLabel "Form der Darstellung (Auswahlliste)"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/28c20b92> a skos:Concept;
+  skos:definition "Hyperlink auf Internetressourcen"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "WEBLINK";
+  skos:prefLabel "Weblink"@de;
+  skos:scopeNote "Web-Hyperlink"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4deb593d> a skos:Concept;
+  skos:definition "Angaben zu angehängten Siegeln bei Urkunden"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "SIEGEL";
+  skos:prefLabel "Siegel"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/467bab04> a skos:Concept;
+  skos:definition "Angaben zu Dorsualvermerken und Ähnlichem bei Urkundenregesten."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERMERK";
+  skos:prefLabel "Vermerk"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/731847f8> a skos:Concept;
+  skos:definition "Wird ausschliesslich verwendet bei der Datenübernahme aus der LARS Datenbank FAHPO (PA 633c)."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "SCHLAGWORT";
+  skos:prefLabel "Schlagwort"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/f398e42> a skos:Concept;
+  skos:definition "Wird ausschliesslich verwendet bei der Datenübernahme aus der LARS Datenbank FAHPO (PA 633c)"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AUTOR";
+  skos:prefLabel "Autor"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/196c9768> a skos:Concept;
+  skos:definition "Wird ausschliesslich verwendet bei der Datenübernahme aus der LARS Datenbank FAHPO (PA 633c)"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "EMPFÄNGER";
+  skos:prefLabel "Empfänger"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/640f469c> a skos:Concept;
+  skos:definition "Wird ausschliesslich verwendet bei der Datenübernahme aus der LARS Datenbank FAHPO (PA 633c)"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "DOKUMENTART";
+  skos:prefLabel "Dokumentart"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4df521db> a skos:Concept;
+  skos:definition "Wird ausschliesslich verwendet bei der Datenübernahme aus der LARS Datenbank FAHPO (PA 633c)"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "GATTUNG";
+  skos:prefLabel "Gattung"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/62de40d5> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "101";
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AV_MEDIUM";
+  skos:prefLabel "AV-Medium"@de;
+  skos:scopeNote "Audio/Video"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/687fec1c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "KONTROLLE";
+  skos:prefLabel "Kontrolle:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/30837e69> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10022";
+  skos:definition "Angabe des Formats des Trägermaterials des Filmes"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORMAT_FILM";
+  skos:prefLabel "Format (Film)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/6bf40a27> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ABSPIELGESCHWINDIGKEIT";
+  skos:prefLabel "Abspielgeschwindigkeit"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/6c24b79f> a skos:Concept;
+  skos:definition "Angaben zum Trägermaterial bei Filmen (Bewegtbildern)"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "TRAEGERMATERIAL";
+  skos:prefLabel "Trägermaterial (Film)"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4afd43f5> a skos:Concept;
+  skos:definition "Angabe zum Seitenverhältnis des Bildes bei Filmen (Bewegtbildern)"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BILDFORMAT_FILM";
+  skos:prefLabel "Bildformat (Film; Seitenverhältnis)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/25fea924> a skos:Concept;
+  skos:definition "Gruppe mit Angaben über allfällige Digitalisierungen inkl. Zugriff auf Digitalisate"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "DIGITALISIERUNG";
+  skos:prefLabel "Digitalisierung:"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/37d1b24f> a skos:Concept;
+  skos:definition "Angaben über die Qualität der Digitalisierung"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "DIGITALISIERUNGSQUALITÄT";
+  skos:prefLabel "Digitalisierungsqualität"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/6fb96138> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10024";
+  skos:definition "Angabe des Videoformats bei Erschliessung oder Digitalisierung von Filmen (Bewegtbildern)"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORMAT_VIDEO";
+  skos:prefLabel "Format (Video)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/551d641> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ORIGINALDATIERUNG";
+  skos:prefLabel "Originaldatierung"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/29fa958c> a skos:Concept;
+  skos:definition "Angabe von Aktenzeichen der Provenienzstelle"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "AKTENZEICHEN";
+  skos:prefLabel "Aktenzeichen"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/278ed683> a skos:Concept;
+  skos:definition "Angabe der Bearbeiterin/des Bearbeiters einer VE"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BEARBEITER_IN";
+  skos:prefLabel "Bearbeiter/in"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/74647a94> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10023";
+  skos:definition "Angabe des Tonformats bei Erschliessung oder Digitalisierung von Tonmaterial"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FORMAT_(TON)";
+  skos:prefLabel "Format (Ton)"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/551d0b67> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10025";
+  skos:definition "Angabe ...."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FILMELEMENT";
+  skos:prefLabel "Filmelement"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/4d56d8a4> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10027";
+  skos:definition "Angabe der analogen/physikalischen Codierung von Film- und Tonmaterial."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "CODIERUNG";
+  skos:prefLabel "Codierung"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/6b18900e> a skos:Concept;
+  skos:definition "Enthält einen Hyperlink auf ein Digitalisat (digitalisiertes Archivgut) ausserhalb von scopeArchiv - in der Regel im StABS-Viewer."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "DIGITALISAT";
+  skos:prefLabel "Digitalisat"@de;
+  skos:scopeNote "Web-Hyperlink"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/58ddeff0> a skos:Concept;
+  skos:definition "Dient der Hervorhebung der Benutzungseinschränkung des Originals. Enthält als Standardinformation: \"Für diese Verzeichniseinheit ist ein Benutzungsdigitalisat vorhanden. Das Original steht daher für die Benutzung nicht mehr zur Verfügung.\""@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "BENUTZUNGSHINWEIS";
+  skos:prefLabel "Benutzungshinweis"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/364cfea5> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "DIGITALISAT_VORHANDEN";
+  skos:prefLabel "Digitalisat vorhanden"@de;
+  skos:scopeNote "Ja/Nein-Feld"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/78c00314> a skos:Concept;
+  skos:definition "Komprimierte historische Angaben zu Körperschaft, Person oder Familie."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "GESCHICHTE";
+  skos:prefLabel "Geschichte"@de;
+  skos:scopeNote "Memo"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1052b3d5> a skos:Concept;
+  <http://data.staatsarchiv-bs.ch/datenelemente/hasValueFromList> "10047";
+  skos:definition "Gibt an, welchem Departement der kantonalen VErwaltung Basel-Stadt die Provenienzstelle zugeordnet ist, die die Unterlagen der betreffenden VE generiert hat. Stellt eine Spezialisierung von ISAAR(CPF)2004 5.2.2 dar."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ORGANISATIONSZUGEHÖRIGKEIT";
+  skos:prefLabel "Organisationszugehörigkeit"@de;
+  skos:scopeNote "Auswahlliste"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7aee472c> a skos:Concept;
+  skos:definition "Angabe des enthaltenen Datenvolumens in Megabyte (MB)"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "DATENVOLUMEN_MB";
+  skos:prefLabel "Datenvolumen (MB)"@de;
+  skos:scopeNote "Festkomma-Zahl"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/5e11dde8> a skos:Concept;
+  skos:definition "Umfangangabe für Archivgut in digitaler Form, das aus Dateien  besteht."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ANZAHL_DATEIEN";
+  skos:prefLabel "Anzahl Dateien"@de;
+  skos:scopeNote "Ganze Zahl"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/c7356f4> a skos:Concept;
+  skos:definition "Angabe der Funktionen, beruflichen und privaten Aktivitäten, die von der Körperschaft, Person oder Familie wahrgenommen wurden."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "FUNKTION_UND_AKTIVITÄT";
+  skos:prefLabel "Funktion und Aktivität"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/1bff4c2e> a skos:Concept;
+  skos:definition "Bereitstellung von wichtigen Informationen zum allgemeinen sozialen, kulturellen, wirtschaftlichen, politischen und/oder historischen Kontext, in dem die Körperschaft, Person oder Familie lebte oder tätig war."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "ALLGEMEINER_KONTEXT";
+  skos:prefLabel "Allgemeiner Kontext"@de;
+  skos:scopeNote "Text (max. 4000 Z.)"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/44b5d68b> a skos:Concept;
+  skos:definition "Dient der Gliederung des bisherigen DE Verwaltungsgeschichte/Biografische Angaben gemäss ISAD(G) nach den Verzeichnungselementen des ISAAR(CPF)2004."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "VERWALTUNGSGESCHICHTE_";
+  skos:prefLabel "Verwaltungsgeschichte"@de;
+  skos:scopeNote "Zwischentitel"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/229a3ae4> a skos:Concept;
+  skos:definition "na"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:notation "na";
+  skos:prefLabel "ID-Nr."@de;
+  skos:scopeNote "na"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme,
+    skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7fedfae8> a skos:Concept;
+  skos:definition "Schutzfristende"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:definition "Bewilligung"@de;
+  skos:prefLabel "na"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7fedfae8> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:definition "Physische Benützbarkeit"@de;
+  skos:prefLabel "na"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7fedfae8> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:definition "Zugänglichkeit"@de;
+  skos:prefLabel "na"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7fedfae8> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:definition "Rolle"@de;
+  skos:prefLabel "na"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7fedfae8> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:definition "ID-Name"@de;
+  skos:prefLabel "na"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7fedfae8> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:definition "Zeitraum"@de;
+  skos:prefLabel "na"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten> a skos:conceptScheme;
+  skos:prefLabel "Verzeichnungseinheiten"@de .
+
+<http://data.staatsarchiv-bs.ch/datenelemente/7fedfae8> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/datenelemente/verzeichnungseinheiten>;
+  skos:definition "Notiz"@de;
+  skos:prefLabel "na"@de .
