@@ -472,8 +472,9 @@
 
 <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
   skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
-  skos:prefLabel "Format (Fotos)"@de, "Format (Fotos)"@de;
+  skos:prefLabel "Format (Fotos)"@de;
   a skos:conceptScheme;
+  skos:prefLabel "Format (Fotos)"@de;
   skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <http://data.staatsarchiv-bs.ch/wortschaetze/5f53d8bb> a skos:Concept;
@@ -486,8 +487,9 @@
 
 <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
   skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
-  skos:prefLabel "Format (Fotos)"@de, "Format (Fotos)"@de;
+  skos:prefLabel "Format (Fotos)"@de;
   a skos:conceptScheme;
+  skos:prefLabel "Format (Fotos)"@de;
   skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <http://data.staatsarchiv-bs.ch/wortschaetze/730c8ed> a skos:Concept;
@@ -500,8 +502,9 @@
 
 <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
   skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
-  skos:prefLabel "Format (Fotos)"@de, "Format (Fotos)"@de;
+  skos:prefLabel "Format (Fotos)"@de;
   a skos:conceptScheme;
+  skos:prefLabel "Format (Fotos)"@de;
   skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <http://data.staatsarchiv-bs.ch/wortschaetze/7e873e13> a skos:Concept;
@@ -789,9 +792,9 @@
 <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
   skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
   skos:prefLabel "Form der Darstellung (Pläne)"@de;
-  a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
   skos:prefLabel "Form der Darstellung (Pläne)"@de;
-  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+  a skos:conceptScheme .
 
 <http://data.staatsarchiv-bs.ch/wortschaetze/56fccfc> a skos:Concept;
   skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
