@@ -1,0 +1,1685 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/14eb764f> a skos:conceptScheme;
+  skos:notation "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Erschliessungsgrad"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/ba09aff> a skos:Concept;
+  skos:definition "Eine detallierte Erschliessung."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/14eb764f>;
+  skos:prefLabel "Detailliert"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/87764ca> a skos:Concept;
+  skos:definition "Eine summarische Erschliessung."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/14eb764f>;
+  skos:prefLabel "Summarisch"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/69330461> a skos:Concept;
+  skos:definition "Eine pendente Erschliessung."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/14eb764f>;
+  skos:prefLabel "Pendent"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2b37c111> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/14eb764f>, <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Bild"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582> a skos:conceptScheme;
+  skos:notation "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Archivalienart"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5e7ac28c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Mikroform"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/68224c08> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "-"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/67d824d2> a skos:Concept;
+  skos:definition "Wird für dreidimensionale Objekte verwendet. Wurde vom 13.7.2001 bis 15.4.2015 als \"Gegenstand\" bezeichnet."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Objekt"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/30e5eda0> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Akte"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/66687e08> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Urkunde"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7d68f443> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Plan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6f2dceb7> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Bewegtbild (Film)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/78f0f2e5> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Tonaufzeichnung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/71d61992> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Drucksache"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7d8b2f24> a skos:Concept;
+  skos:definition "Wird verwendet für Angabe aller Arten von Trägern digital gespeicherter Informationen."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Digitales Speichermedium"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/d18687c> a skos:Concept;
+  skos:definition "Zur Beschreibung grossformatiger Drucke (Text und Bild) auf Papier, die in der Öffentlichkeit angebracht werden."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Plakat"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6828e0a0> a skos:Concept;
+  skos:definition "Eine Menge elektronischer Daten, die dauerhaft und in einer bestimmten Form (Dateiformat) gespeichert sind."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Datei"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/22e8a54b> a skos:Concept;
+  skos:definition "Generischer Begriff für Website, Online-Ressourcen etc."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/3ac65582>;
+  skos:prefLabel "Netzressource"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7c2cda9b> a skos:conceptScheme;
+  skos:notation "101"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Dateitypen (Multimedia)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2643e66f> a skos:Concept;
+  skos:definition "eine Audiodatei"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7c2cda9b>;
+  skos:prefLabel "Audio"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/42f90ad8> a skos:Concept;
+  skos:definition "eine Videodatei"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7c2cda9b>;
+  skos:prefLabel "Video"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2a98ce67> a skos:conceptScheme;
+  skos:notation "10017"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Behältnistyp (Höflinger)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58ca4fac> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2a98ce67>;
+  skos:prefLabel "Schachtel"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/460380eb> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2a98ce67>;
+  skos:prefLabel "Box (Plastik)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6a363a70> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2a98ce67>;
+  skos:prefLabel "Couvert"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/200c3016> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2a98ce67>;
+  skos:prefLabel "Pergaminhülle"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/17c9c2e0> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Ambrotypie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/69c591f7> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Daguerreotypie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/377257ff> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Diapositiv, Glas"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/32764a96> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Ferrotypie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/761f9517> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotopositiv, Papier"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1b0a6ecc> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotopositiv, Papier, Albumin"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1f067f0d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotopositiv, Papier, Gelatine"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1edf1ce> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotopositiv, Papier, Kollodium"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/71497e19> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Mikrofilm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/31bfc717> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Pannotypie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3041aa73> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Stereodia, Film"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme, skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>, "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/71407b02> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotonegativ, Film"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/19ac0a0c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotonegativ, Film, Acetat"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4e62ec30> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotonegativ, Film, Nitrat"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/74171caf> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotonegativ, Film, Polyester"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6b2706fc> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotonegativ, Film, Safety"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f69625e> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotonegativ, Glas"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/709920f0> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotonegativ, Glas, Gelatine"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3d711fcc> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotonegativ, Glas, Kollodium"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f8b7204> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotonegativ, Papier"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/32b60009> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Stereonegativ, Film"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3c9f1957> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Stereonegativ, Glas"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4b314407> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Aquatinta"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3e9e07ef> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Fotografischer Edeldruck"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/25bee42b> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Holzschnitt"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7cb783e5> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Holzstich"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/18a2b771> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Kupferstich"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5ac88b82> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Druckgrafik"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/75b33ec1> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Lichtdruck"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/66a311db> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Lithografie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/22a40651> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Offsetdruck"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1c98635c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Radierung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/28a7d9e9> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Stahlstich"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/37d16c0e> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Aquarell"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7cd98a10> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Ölbild"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/71f2dc22> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Tempera"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/119a18e> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Zeichnung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/d45ccc> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Zeichnung, Bleistift"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7fec0e04> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Zeichnung, Feder"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2ba821d7> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Zeichnung, Kreide"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/40a770f0> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Zeichnung, Tusche"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d54c7bd> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Stummfilm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/36560747> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Tonfilm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/42f90ad8> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Video"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Technik (Bildersammlung"@de;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/286e3bce> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "CD-ROM"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/395b4ea1> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Diapositiv, Film"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b> a skos:conceptScheme;
+  skos:notation "10007"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Technik (Bildersammlung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5b15f80> a skos:Concept;
+  skos:definition "Bezeichnung für ein ausschliesslich in Form einer digitalen Bilddatei vorliegendes Bild"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7f1a2b5b>;
+  skos:prefLabel "Digitalbild"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1b4aabd4> a skos:conceptScheme;
+  skos:notation "10020"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Positiv in Schachtel"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Positiv in Schachtel"@de;
+  skos:notation "10020"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/78bdf16e> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1b4aabd4>;
+  skos:prefLabel "kleiner 9 x 12 cm (4 x 5 inch)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/55574af3> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1b4aabd4>;
+  skos:prefLabel "grösser als 9 x 12 cm bis 18 x 24 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1b4aabd4> a skos:conceptScheme;
+  skos:notation "10020"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Positiv in Schachtel"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/fd12eef> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1b4aabd4>;
+  skos:prefLabel "grösser 18 x 24 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Fotos)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Fotos)"@de;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/680df907> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "2.4 x 3.6 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7c5f1334> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "4.5 x 6 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Fotos)"@de, "Format (Fotos)"@de;
+  a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5f53d8bb> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "6 x 6 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/18104022> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "6 x 7 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Fotos)"@de, "Format (Fotos)"@de;
+  a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/730c8ed> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "6 x 9 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/39c4a68a> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "9 x 12 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Fotos)"@de, "Format (Fotos)"@de;
+  a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7e873e13> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "9 x 13 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1a28aedc> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "9.4 x 5.8 cm (carte de visite)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Fotos)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Fotos)"@de;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3c43c91a> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "4 x 5 inch (10.1 x 12.7 cm)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/41e559ae> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "13 x 18 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Fotos)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Fotos)"@de;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3139fde7> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "18 x 24 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/18f1e0e0> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "8 x 10 inch (20.32 x 25.4 cm)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Fotos)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Fotos)"@de;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/71c7f4e9> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "24 x 30 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/71c912cb> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "30 x 40 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Fotos)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Fotos)"@de;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/518adffc> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "40 x 50 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/61731ee> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "50 x 60 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/58d61919> a skos:conceptScheme;
+  skos:notation "10008"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Fotos)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/198296a7> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/58d61919>;
+  skos:prefLabel "6 x 12 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4336abff> a skos:conceptScheme;
+  skos:notation "10018"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Höflinger)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Höflinger)"@de;
+  skos:notation "10018"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/76815f59> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4336abff>;
+  skos:prefLabel "6 x 6 cm / 6 x 12 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/39c4a68a> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4336abff>;
+  skos:prefLabel "9 x 12 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4336abff> a skos:conceptScheme;
+  skos:notation "10018"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Höflinger)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Höflinger)"@de;
+  skos:notation "10018"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/27916605> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4336abff>;
+  skos:prefLabel "ca. 13 x 18 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/574dc24e> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4336abff>;
+  skos:prefLabel "ca. 18 x 24 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4336abff> a skos:conceptScheme;
+  skos:notation "10018"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Höflinger)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Höflinger)"@de;
+  skos:notation "10018"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1b6bc33d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4336abff>;
+  skos:prefLabel "ca 24 x 30 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/17bd2d64> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4336abff>;
+  skos:prefLabel "ca. 30 x 40 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4336abff> a skos:conceptScheme;
+  skos:notation "10018"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Höflinger)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Höflinger)"@de;
+  skos:notation "10018"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/37fee055> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4336abff>;
+  skos:prefLabel "ca. 40 x 50 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/60630e45> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4336abff>;
+  skos:prefLabel "ca. 50 x 60 cm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3> a skos:conceptScheme;
+  skos:notation "10006"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Farbe/Bildbearbeitung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/758bd3e9> a skos:Concept;
+  skos:definition "schwarz/weiss"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3>;
+  skos:prefLabel "s/w"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3> a skos:conceptScheme;
+  skos:notation "10006"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Farbe/Bildbearbeitung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Farbe/Bildbearbeitung"@de;
+  skos:notation "10006"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/26b14055> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3>;
+  skos:prefLabel "farbig"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7a5deb3d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3>;
+  skos:prefLabel "retouchiert"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3> a skos:conceptScheme;
+  skos:notation "10006"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Farbe/Bildbearbeitung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Farbe/Bildbearbeitung"@de;
+  skos:notation "10006"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/45018e62> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3>;
+  skos:prefLabel "koloriert"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/146786c5> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3>;
+  skos:prefLabel "gemalt"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3> a skos:conceptScheme;
+  skos:notation "10006"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Farbe/Bildbearbeitung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Farbe/Bildbearbeitung"@de;
+  skos:notation "10006"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6d4c1062> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3>;
+  skos:prefLabel "Keine Angabe"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6129e0be> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3>;
+  skos:prefLabel "farbig / sw"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3> a skos:conceptScheme;
+  skos:notation "10006"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Farbe/Bildbearbeitung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Farbe/Bildbearbeitung"@de;
+  skos:notation "10006"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/509215a2> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3>;
+  skos:prefLabel "Farbe"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/745523ab> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/2db28ee3>;
+  skos:prefLabel "sw"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/40cb80d> a skos:conceptScheme;
+  skos:notation "10011"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Hausnamen"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/59ee80a2> a skos:conceptScheme;
+  skos:notation "10012"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Adressbuch"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/55f13938> a skos:conceptScheme;
+  skos:notation "10015"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Entstehungsstufe Pläne"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Entstehungsstufe Pläne"@de;
+  skos:notation "10015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/557fd0c1> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/55f13938>;
+  skos:prefLabel "Aufnahmeplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2a98bac> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/55f13938>;
+  skos:prefLabel "Ausführungsplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/55f13938> a skos:conceptScheme;
+  skos:notation "10015"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Entstehungsstufe Pläne"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Entstehungsstufe Pläne"@de;
+  skos:notation "10015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5706bffe> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/55f13938>;
+  skos:prefLabel "Entwurf"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3b49c0b4> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/55f13938>;
+  skos:prefLabel "Planung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/55f13938> a skos:conceptScheme;
+  skos:notation "10015"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Entstehungsstufe Pläne"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Entstehungsstufe Pläne"@de;
+  skos:notation "10015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/28d7637a> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/55f13938>;
+  skos:prefLabel "Projekt"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/227acc02> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/55f13938>;
+  skos:prefLabel "Skizze"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/55f13938> a skos:conceptScheme;
+  skos:notation "10015"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Entstehungsstufe Pläne"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Entstehungsstufe Pläne"@de;
+  skos:notation "10015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/52ad1462> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/55f13938>;
+  skos:prefLabel "Studie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/aeee746> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/55f13938>;
+  skos:prefLabel "Vertrag/Urkunde"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/55f13938> a skos:conceptScheme;
+  skos:notation "10015"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Entstehungsstufe Pläne"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/f60b80b> a skos:Concept;
+  skos:definition "Konkurrenz ergänzt im Rahmen der Digitalisierung des APLAKAT."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/55f13938>;
+  skos:prefLabel "Wettbewerb/Konkurrenz"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/56fccfc> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Ansicht"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/79a32d27> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Aufriss"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/172c6c3d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Detailplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1c477b> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Fassadenplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3196301d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Geologische Karte"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2fda3097> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Grundbuchkatasterplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/19bd3ead> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Grundriss"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4b3eb8b7> a skos:Concept;
+  skos:definition "Nivellement ergänzt im Rahmen der Digitalisierung des APLAKAT."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Kotenplan/Nivellement"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4929997f> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Lärmempfindlichkeitsstufenplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/31d8d45a> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Leitungskatasterplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3cb79f83> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Ortsplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5250d423> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Parzellenplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7e39ee6b> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Rahmenplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/40305d54> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Querschnitt"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6edc1869> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Situation"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/34dbc1fc> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Stadtplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7771f61> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Thematische Karte"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/569bdee3> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Thematischer Plan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2c620b7c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Topographische Karte"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2065d5b2> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Touristikkarte"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1855143> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Übersichtsplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4f0b3f91> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Vogelschauplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5112894d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Zonenplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/fd89327> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Grundeigentumsplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4430428d> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT; ist ausschliesslich hierfür bestimmt."@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Grubenplan*"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/73a9f852> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Baulinienplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/623643c6> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Grenzplan/Bannplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1f45a41d> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Kanalisationsplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/290343f> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Installationsplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/48a6d7fd> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Werkplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/13e1bb8e> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Strassenlinienplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/481404e0> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Strassenkarte"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/209e700> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Katasterplan"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1e85485f> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Profil"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/28b71464> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Schnitt"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/76c55060> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Längsschnitt"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/447f808d> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Querprofil"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f> a skos:conceptScheme;
+  skos:notation "10016"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Form der Darstellung (Pläne)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3aeabec6> a skos:Concept;
+  skos:definition "Erfasst im Rahmen der Digitalisierung des APLAKAT"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/9bd9c3f>;
+  skos:prefLabel "Längenprofil"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/30837e69> a skos:conceptScheme;
+  skos:notation "10022"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Film)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Film)"@de;
+  skos:notation "10022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3c4b7337> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/30837e69>;
+  skos:prefLabel "35 mm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/543e8fb9> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/30837e69>;
+  skos:prefLabel "16 mm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/30837e69> a skos:conceptScheme;
+  skos:notation "10022"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Film)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Film)"@de;
+  skos:notation "10022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/f51df21> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/30837e69>;
+  skos:prefLabel "9.5 mm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3039be43> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/30837e69>;
+  skos:prefLabel "8 mm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/30837e69> a skos:conceptScheme;
+  skos:notation "10022"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Film)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Film)"@de;
+  skos:notation "10022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/34988826> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/30837e69>;
+  skos:prefLabel "Super 8"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/188aed8> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/30837e69>;
+  skos:prefLabel "Super 35"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/30837e69> a skos:conceptScheme;
+  skos:notation "10022"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Film)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Film)"@de;
+  skos:notation "10022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/55486220> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/30837e69>;
+  skos:prefLabel "Super 16"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1392d721> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/30837e69>;
+  skos:prefLabel "Filmdatei"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138> a skos:conceptScheme;
+  skos:notation "10024"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Video)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Video)"@de;
+  skos:notation "10024"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/47362398> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138>;
+  skos:prefLabel "U-Matic"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4c1f7cb> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138>;
+  skos:prefLabel "Betamax"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138> a skos:conceptScheme;
+  skos:notation "10024"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Video)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Video)"@de;
+  skos:notation "10024"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/63823e2c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138>;
+  skos:prefLabel "Betacam"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/414aa77c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138>;
+  skos:prefLabel "Digital Betacam"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138> a skos:conceptScheme;
+  skos:notation "10024"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Video)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Video)"@de;
+  skos:notation "10024"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1d07d046> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138>;
+  skos:prefLabel "VHS (Video Home System)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6d32299e> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138>;
+  skos:prefLabel "DV, miniDV, DVCpro"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138> a skos:conceptScheme;
+  skos:notation "10024"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Video)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Video)"@de;
+  skos:notation "10024"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1624b324> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138>;
+  skos:prefLabel "DVD (Digital Versatile Disk)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1392d721> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138>;
+  skos:prefLabel "Filmdatei"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138> a skos:conceptScheme;
+  skos:notation "10024"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Video)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6516be07> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/6fb96138>;
+  skos:prefLabel "LTO-4"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/74647a94> a skos:conceptScheme;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Ton)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Ton)"@de;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/36e4c459> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "Lichtton-Positiv"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/fb5e6ff> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "Lichtton-Negativ"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/74647a94> a skos:conceptScheme;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Ton)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Ton)"@de;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/11f58acb> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "Sepmag"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/550bc4bf> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "Comag"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/74647a94> a skos:conceptScheme;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Ton)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Ton)"@de;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2d67f87d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "stumm"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1cba5e86> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "Schellack"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/74647a94> a skos:conceptScheme;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Ton)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Ton)"@de;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2ab0e997> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "Acetat-Platte"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/428d2b4c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "Tonband 1/4 Zoll (6.35 mm) Open Reel"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/74647a94> a skos:conceptScheme;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Ton)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Ton)"@de;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3883e9c8> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "Compact Kassette"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4cda47d3> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "DAT (Digital Audio Tape)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/74647a94> a skos:conceptScheme;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Ton)"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Format (Ton)"@de;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/77b27aa3> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "MD (Mini Disc)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/388c7135> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "CD (Compact Disc)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/74647a94> a skos:conceptScheme;
+  skos:notation "10023"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Format (Ton)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6b7ab70a> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/74647a94>;
+  skos:prefLabel "Tondatei"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/a102c69> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "CRI"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1e199245> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Positiv"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/53ee4f46> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Umkehrpositiv"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2748b0e3> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Negativ"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6abf6de2> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Umkehrnegativ"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/37fa68c0> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Positivkopie von einem 35mm-Film"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1206382b> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "IntermediatePositiv"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2d3dfce7> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Positivkopie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4e7342a4> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Umkehrpositiv (kurzer Teil in der Mitte Positiv)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/16681058> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Verschiedene"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5f105210> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Umkehrpositiv (nicht ganz sicher)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7fef61ac> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Original Tonpositiv"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/23518992> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Positiv (Kopie)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7778361f> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Nullkopie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4f432a25> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Vorführkopie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/60838380> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Umkehroriginal (Positiv)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/181deda0> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "A/B-Rollen (Negative)"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/59f8282b> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Internegativ"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/60a90a8d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Interpositiv"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/484bdb9b> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Dub-Negativ"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Filmelement"@de;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/711af93d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Dub-Positiv"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6a6ac2a9> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Intermedpositiv"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67> a skos:conceptScheme;
+  skos:notation "10025"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Filmelement"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/40c0853d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/551d0b67>;
+  skos:prefLabel "Arbeitskopie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4> a skos:conceptScheme;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Codierung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/a6808d5> a skos:Concept;
+  skos:definition "min. LPCM 16 bit, 44.1 kHz, stereo/mono"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel ".wav"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4> a skos:conceptScheme;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Codierung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4eb6b87e> a skos:Concept;
+  skos:definition "min. 128 kHz. stereo/mono"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel ".mp3"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4> a skos:conceptScheme;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Codierung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/65b7a18a> a skos:Concept;
+  skos:definition "Microsoftcontainer mit unkomprimiertem film, min. 25 Hz Progressive, 1920x1080, 4:2:2, 8 bit YUV, 44.1 kHz 16 bit, stereo/mono"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel ".avi"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4> a skos:conceptScheme;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Codierung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7aa5fc03> a skos:Concept;
+  skos:definition "Applecontainer mit unkomprimiertem film, min. 25 Hz Progressive, 1920x1080, 4:2:2, 8 bit YUV, 44.1 kHz 16 bit, stereo/mono"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel ".mov"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4> a skos:conceptScheme;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Codierung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5e8c2aa7> a skos:Concept;
+  skos:definition "DVD Gebrauchsformat, MPEG-2 MP@ML, 25 Hz Progressive, 720x576, Audio 44.1 oder 48 kHz"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel ".mpeg MPEG-2"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4> a skos:conceptScheme;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Codierung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/629168f1> a skos:Concept;
+  skos:definition "Motion Jpeg2K-Container"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel ".mxf"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4> a skos:conceptScheme;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Codierung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4810706e> a skos:Concept;
+  skos:definition "MPEG-4 Part 10 und MPEG-4 Part 2"@de;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel ".mpeg MPEG-4"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4> a skos:conceptScheme;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Codierung"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Codierung"@de;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5f5845d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel "PAL"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/79776507> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel "SECAM"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4> a skos:conceptScheme;
+  skos:notation "10027"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Codierung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4f7968c3> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/4d56d8a4>;
+  skos:prefLabel "NTSC"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5> a skos:conceptScheme;
+  skos:notation "10047"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Organisationszugehörigkeit"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Organisationszugehörigkeit"@de;
+  skos:notation "10047"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7e9d0a62> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5>;
+  skos:prefLabel "PD Präsidialdepartement"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/4c34e1a5> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5>;
+  skos:prefLabel "ED Erziehungsdepartement"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5> a skos:conceptScheme;
+  skos:notation "10047"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Organisationszugehörigkeit"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Organisationszugehörigkeit"@de;
+  skos:notation "10047"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7766c82c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5>;
+  skos:prefLabel "FD Finanzdepartement"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/2dc3aaef> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5>;
+  skos:prefLabel "GD Gesundheitsdepartement"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5> a skos:conceptScheme;
+  skos:notation "10047"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Organisationszugehörigkeit"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "Organisationszugehörigkeit"@de;
+  skos:notation "10047"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1781168f> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5>;
+  skos:prefLabel "JSD Justiz- und Sicherheitsdepartement"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/73622327> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5>;
+  skos:prefLabel "WSU Departement für Wirtschaft, Soziales und Umwelt"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5> a skos:conceptScheme;
+  skos:notation "10047"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "Organisationszugehörigkeit"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/23c5e24c> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/1052b3d5>;
+  skos:prefLabel "BVD Bau- und Verkehrsdepartement"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/49d989e9> a skos:conceptScheme;
+  skos:notation "10046"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "ISAAR(CPF)-Typ der Einheit"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "ISAAR(CPF)-Typ der Einheit"@de;
+  skos:notation "10046"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3addf41e> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/49d989e9>;
+  skos:prefLabel "Körperschaft"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/6946c036> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/49d989e9>;
+  skos:prefLabel "Familie"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/49d989e9> a skos:conceptScheme;
+  skos:notation "10046"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "ISAAR(CPF)-Typ der Einheit"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/3370d440> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/49d989e9>;
+  skos:prefLabel "Person"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7938116f> a skos:conceptScheme;
+  skos:notation "10045"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "ISAAR(CPF)-Rechtsform"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "ISAAR(CPF)-Rechtsform"@de;
+  skos:notation "10045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/280cff9d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7938116f>;
+  skos:prefLabel "Öffentliche Verwaltung"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5e6800ee> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7938116f>;
+  skos:prefLabel "Öffentlichrechtliche Körperschaft"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/7938116f> a skos:conceptScheme;
+  skos:notation "10045"^^<http://www.w3.org/2001/XMLSchema#int>;
+  skos:prefLabel "ISAAR(CPF)-Rechtsform"@de;
+  a skos:conceptScheme;
+  skos:prefLabel "ISAAR(CPF)-Rechtsform"@de;
+  skos:notation "10045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/5bfdca04> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7938116f>;
+  skos:prefLabel "Private im öffentlichen Auftrag"@de .
+
+<http://data.staatsarchiv-bs.ch/wortschaetze/1dbbf84d> a skos:Concept;
+  skos:inScheme <http://data.staatsarchiv-bs.ch/wortschaetze/7938116f>;
+  skos:prefLabel "Private"@de .
