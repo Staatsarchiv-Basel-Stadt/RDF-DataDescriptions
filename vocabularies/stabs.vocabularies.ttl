@@ -1,0 +1,80 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#> 
+PREFIX ric-rst: <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+PREFIX stabs-rst: <https://ld.staatsarchiv.bs.ch/vocabularies/RecordSetTypes#>
+PREFIX stabs-idt: <https://ld.staatsarchiv.bs.ch/vocabularies/IdentifierTypes#>
+PREFIX stabs-ext: <https://ld.staatsarchiv.bs.ch/vocabularies/ExtentTypes#>
+PREFIX stabs-tht: <https://ld.staatsarchiv.bs.ch/vocabularies/thesaurusTypes#>
+
+
+ric-rst:Collection a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "collection"@eng ;
+	skos:definition  """An artificial assemblage of documents accumulated on the basis of some common characteristic without regard to the provenance of those documents. Not to be confused with an archival fonds. (From ICA ISAD(G))"""@eng ;
+	skos:inScheme <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes> ;
+	skos:prefLabel "collection"@eng .
+
+ric-rst:File a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "file"@eng ;
+	skos:definition """An organized unit of documents grouped together either for current use by the creator or in the process of archival arrangement, because they relate to the same subject, activity, or transaction. A file is usually the basic unit within a record series. (From ICA ISAD(G))"""@eng ;
+	skos:inScheme <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes> ;
+	skos:prefLabel "file"@eng .
+
+ric-rst:Fonds a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "fonds"@eng ;
+	skos:definition """The whole of the records, regardless of form or medium, organically created and/or accumulated and used by a particular person, family, or corporate body in the course of that creator's activities and functions. (From ICA ISAD(G))"""@eng ;
+	skos:inScheme <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes> ;
+	skos:prefLabel "fonds"@eng .
+
+ric-rst:Series a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "series"@eng ;
+	skos:definition """Documents arranged in accordance with a filing system or maintained as a unit because they result from the same accumulation or filing process, or the same activity; have a particular form; or because of some other relationship arising out of their creation, receipt, or use. A series is also known as a records series. (From ICA ISAD(G))"""@eng ;
+	skos:inScheme <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes> ;
+	skos:prefLabel "series"@eng .
+
+# RecordSetTypes des StABS
+# ------------------------
+# Definiert die im StABS verwendeten Verzeichnungsstufen gemäss ISAD(G) und internen Erschliessungsregeln als Erweiterung der verfügbaren rico:RecordSetType
+	
+stabs-rst:Archiv a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Archiv"@ger ;
+	skos:definition """Die Stufe Archiv besteht aus einer einzigen Verzeichnungseinheit, die den Gesamt­bestand des Archivs beschreibt. Die Ordnung erfolgt auf der Grundlage des Archivsprengels, der in gesetzlichen Erlassen, in Vereinbarungen oder in einem Sammelprofil geregelt ist. (Schweizerische Richtlinien für die Umsetzung von ISAD(G)"""@ger ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/RecordSetTypes> ;
+	skos:prefLabel "Archiv"@ger .
+
+stabs-rst:Abteilung a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Abteilung"@ger ;
+	skos:definition """Die Stufe Abteilung dient der archivinternen Grobgliederung und wird verwendet, die obersten Gruppen wie Haupt-, Neben- oder Privatarchive zu bilden. Innerhalb dieser obersten Gliederung werden weiteren Abteilungen angesetzt, wie beispielsweise das Ältere Hauptarchiv oder das Neue Hauptarchiv. (Def. sinngemäss nach StABS, Handbuch Erschliessung)"""@ger ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/RecordSetTypes> ;
+	skos:prefLabel "Abteilung"@ger .	
+
+stabs-rst:Fonds a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Fonds"@ger ;
+	skos:definition """Die Stufe Fonds dient dazu, sämtliche Bestände einer Provenienzstelle zusammenzufassen. Im Neueren Hauptarchiv (alte Systematik) sowie im Neuen Hauptarchiv (neue Systematik) wird für jede Dienststelle ein Fonds gebildet. Bei privaten Aktenbildnern gilt die Definition sinngemäss. (Def. sinngemäss nach StABS, Handbuch Erschliessung)"""@ger ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/RecordSetTypes> ;
+	skos:prefLabel "Fonds"@ger .
+
+stabs-rst:Bestand a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Bestand"@ger ;
+	skos:definition """Bestände werden bei Unterlagen von Dienststellen und juristischen Personen aufgrund bestehender Ordnungssysteme, physisch unterscheidbaren Ablagen, Zeitperioden oder nach den Aufgabengebieten und Produkten der Provenienzstelle gebildet. Bei natürlichen Personen und Familienarchiven können Bestände auch aufgrund von Generationen, Tätigkeitsgebieten oder Lebensabschnitten gebildet werden. (Def. sinngemäss nach StABS, Handbuch Erschliessung)"""@ger ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/RecordSetTypes> ;
+	skos:prefLabel "Bestand"@ger .
+
+stabs-rst:Serie a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Serie"@ger ;
+	skos:definition """Die Stufe Serie gliedert unterhalb des Bestands diesen hierarchisch in einem Aktenplan. Zusammengehörende Serien bilden eine Seriengruppe. (Def. sinngemäss nach StABS, Handbuch Erschliessung)"""@ger ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/RecordSetTypes> ;
+	skos:prefLabel "Serie"@ger .
+
+stabs-rst:Dossier a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Dossier"@ger ;
+	skos:definition """Die Stufe Dossier erfasst physisch eindeutig unterscheidbare Einheiten innerhalb einer Serie bzw. eines Zugangs. Traditionellerweise und aufgrund archivfachlicher Standards werden Bild- und Planmaterial sowie audiovisuelle Unterlagen und e-Akten bis auf Dossierstufe erschlossen. (Def. sinngemäss nach StABS, Handbuch Erschliessung)"""@ger ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/RecordSetTypes> ;
+	skos:prefLabel "Dossier"@ger .
+
+stabs-rst:Dokument a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Dokument"@ger ;
+	skos:definition """Die Stufe Dokument wird nur in Ausnahme- und Spezialfällen verwendet. Es handelt sich eigentlich um einen <RecordType>. (Def. sinngemäss nach StABS, Handbuch Erschliessung)"""@ger ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/RecordSetTypes> ;
+	skos:prefLabel "Dokument"@ger .			
